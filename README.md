@@ -1,4 +1,4 @@
-### Learnopolia 🐢
+## Learnopolia 🐢
 
 Welcome to Learnopolia, the ultimate destination for free and accessible learning materials suitable for learners of all ages. At Learnopolia, we believe that education should be accessible to everyone, regardless of their background or age. Our mission is to empower learners worldwide by providing a vast collection of high-quality educational resources that cover a wide range of subjects.
 
