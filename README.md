@@ -6,4 +6,4 @@ Whether you're a student, a professional looking to expand your knowledge, or a 
 
 What sets Learnopolia apart is our commitment to providing free access to all our resources. We firmly believe that education should never be a barrier due to financial constraints. With Learnopolia, you can access valuable learning materials without any cost, ensuring that knowledge is truly within reach for everyone.
 
-Join our vibrant community of learners and embark on a lifelong learning adventure with Learnopolia. Discover new passions, acquire valuable skills, and broaden your horizons—all at your own pace and convenience. Start your educational journey with Learnopolia today and unlock a world of knowledge
+Join our vibrant community of learners and embark on a lifelong learning adventure with Learnopolia. Discover new passions, acquire valuable skills, and broaden your horizons—all at your own pace and convenience. Start your educational journey with Learnopolia today and unlock a world of knowledge.
