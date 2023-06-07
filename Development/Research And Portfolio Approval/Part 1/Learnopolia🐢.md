@@ -18,7 +18,10 @@ I chose to use the React JavaScript framework instead of  Vue.js. This is becaus
 2. <u>Quality Education:</u> Learnopolia can contribute to improving the quality of education by offering carefully curated learning materials that are accurate, up-to-date, and aligned with educational standards. It can provide engaging content, interactive exercises, and assessments that promote effective learning outcomes.
 3. <u>Lifelong Learning:</u> Learnopolia can support the idea of lifelong learning by offering a diverse range of educational resources suitable for learners of all ages. It can provide opportunities for individuals to enhance their skills, acquire new knowledge, and stay relevant in a rapidly changing world.
 4. <u>Digital Literacy:</u> Learnopolia can contribute to improving digital literacy skills by providing a platform where learners can navigate and engage with digital resources effectively. It can offer guidance on digital citizenship, online safety, and responsible use of technology, empowering individuals to be competent and responsible digital citizens.
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;Learnopolia is designed to help <u>all</u> users, especially those in need of educational background, to have access to quality education. The targeted users are children enrolled in primary schools, and secondary schools, and adults & young adults in higher institutions.
+
 &nbsp;&nbsp;&nbsp;&nbsp;While Learnopolia is still in development, Learnopolia *does not* solve the problem of access to technology, inadequate infrastructure, socioeconomic disparities, and emotional and social development.
 
 
