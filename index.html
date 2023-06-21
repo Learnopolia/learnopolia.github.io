@@ -18,6 +18,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@300;400;500;600;700;800&display=swap"
             rel="stylesheet">
+
+        <!-- Swiper.js CDN -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     </head>
 
     <body>
@@ -292,11 +295,11 @@
             </div>
         </section>
 
-        <section class="container user__container">
+        <section class="container user__container mySwiper">
             <h2>User Stories</h2>
-            <div>
+            <div class="swiper-wrapper">
                 <!-- First Success Story -->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar1.jpg">
                     </div>
@@ -317,7 +320,7 @@
                 </article>
 
                 <!-- Second Success Story -->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar2.jpg">
                     </div>
@@ -338,7 +341,7 @@
                 </article>
 
                 <!-- Third Success Story-->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar3.jpg">
                     </div>
@@ -362,7 +365,7 @@
                 </article>
 
                 <!-- Fourth Success Story -->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar4.jpg">
                     </div>
@@ -386,7 +389,7 @@
                 </article>
 
                 <!-- Fifth Success Story -->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar5.jpg">
                     </div>
@@ -407,7 +410,7 @@
                 </article>
 
                 <!-- Sixth Success Story-->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar6.jpg">
                     </div>
@@ -428,7 +431,7 @@
                 </article>
 
                 <!-- Seventh Success Story -->
-                <article class="user">
+                <article class="user swiper-slide">
                     <div class="avatar">
                         <img src="images/avatar7.jpg">
                     </div>
@@ -449,10 +452,118 @@
                     </div>
                 </article>
             </div>
+
+            <!-- Adding swiper.js pagination -->
+            <div class="swiper-pagination"></div>
         </section>
 
         <!--Linking the JavaScript file index.js -->
         <script src="index.js"></script>
+
+        <!-- Adding swiper.js for User Stories -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                // when window width is >= 600px (mobile phones)
+                breakpoints: {
+                    600: {
+                        slidesPerView: 2
+                    }
+                }
+            });
+        </script>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer__container">
+                <!-- Footer 1 -->
+                <div class="footer__1">
+                    <a href="index.html" class="footer__logo">
+                        <h4>Learnopolia 🐢</h4>
+                    </a>
+                    <p>
+                        The ultimate destination for free and accessible learning materials and resources.
+                    </p>
+                </div>
+
+                <!-- Footer 2 -->
+                <div class="footer__2">
+                    <h4>Learn More</h4>
+                    <ul class="permalinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About 🐢</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer 3 -->
+                <div class="footer__3">
+                    <h4>Privacy</h4>
+                    <ul class="privacy">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy 🍪</a></li>
+                        <li><a href="#">Terms And Conditions</a></li>
+                        <li><a href="#">Compliance and Legal Rights</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer 4 -->
+                <div class="footer__4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <ul class="footer__socials">
+                            <li>
+                                <!-- GMail -->
+                                <a href="mailto:learnopolia@gmail.com"  target="_blank">
+                                    <i class="uil uil-envelope"></i>
+                                    GMail
+                                </a>
+                            </li>
+                            <!-- WhatsApp -->
+                            <li>
+                                <a href="https://api.whatsapp.com/send?phone=1234567890" target="_blank">
+                                    <i class="uil uil-whatsapp"></i>
+                                    WhatsApp
+                                </a>
+                            </li>
+                            <!-- Telephone -->
+                            <li>
+                                <a href="tel:+2348139720259" target="_blank">
+                                    <i class="uil uil-phone-volume"></i>
+                                    Phone
+                                </a>
+                            </li>
+                            <!-- Twitter -->
+                            <li>
+                                <a href="https://twitter.com/learnopolia/" target="_blank">
+                                    <i class="uil uil-twitter"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer__copyright">
+                <small>Copyright &copy; 2023. Learnopolia 🐢. All Rights Reserved.</small>
+
+            <!-- The Registered sign -->
+            <!-- <span class="registered">&reg;</span> -->
+            </div>
+        </footer>
 
     </body>
 
