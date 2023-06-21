@@ -10,7 +10,7 @@
 
 :root {
     /* Declare variables for easier access */
-    --color-primary: #686bfb;    /* Former value was #6c63ff */
+    --color-primary: #6c63ff;    /* Former value was #6c63ff */
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
     --color-danger: #f75842;
@@ -160,4 +160,88 @@ header {
 
 .header__left p {
     margin: 1rem 0 2.4rem;
+}
+
+/* CATEGORIES */
+.categories {
+    background: var(--color-bg1);
+    height: 29rem; /* Previously 29rem */
+}
+
+.categories h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categories__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* gap: 4rem; */
+}
+
+.categories__left {
+    margin-right: 4rem;
+}
+
+.categories__left p {
+    margin: 1rem 0 3rem;
+}
+
+.categories__right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem; /* Formerly 1.2rem */
+}
+
+.category {
+    background: var(--color-bg2);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+/* The hover effect when selecting categories */
+.category:hover {
+    box-shadow: 0 3rem 3rem #c0c0c0;
+    z-index: 1;
+}
+
+.category:nth-child(1) .category__icon {
+    background: red;
+}
+
+/* Changed icon color */
+.category:nth-child(2) .category__icon {
+    background: var(--color-danger);
+}
+
+.category:nth-child(3) .category__icon {
+    background: var(--color-success);
+}
+
+/* Changed icon color */
+.category:nth-child(4) .category__icon {
+    background: springgreen;
+}
+
+.category:nth-child(5) .category__icon {
+    background: green;
+}
+.category:nth-child(6) .category__icon {
+    background: blue;
+}
+
+.category__icon {
+    background: var(--color--primary);
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+
+.category h5 {
+    margin: 2rem 0 1rem;
+
+}
+
+.category p {
+    font-size: 0.85rem
 }
