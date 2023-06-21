@@ -105,6 +105,7 @@ img {
     color: var(--color-white); /* Color of text inside button */
 }
 
+
 /* == NAVBAR == */
 nav {
     background: transparent;
@@ -147,6 +148,7 @@ nav button {
     color: var(--color-bg2);
 }
 
+
 /* === HEADER === */
 header {
     position: relative;
@@ -168,10 +170,11 @@ header {
     margin: 1rem 0 2.4rem;
 }
 
+
 /* CATEGORIES */
 .categories {
     background: var(--color-bg1);
-    height: 29rem; /* Previously 29rem */
+    height: 54rem; /* Previously 29rem */ /* Other value was 54rem */
 }
 
 .categories h1 {
@@ -196,7 +199,7 @@ header {
 .categories__right {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem; /* Formerly 1.2rem */
+    gap: 1.2rem; /* Formerly 1.2rem */
 }
 
 .category {
@@ -250,4 +253,81 @@ header {
 
 .category p {
     font-size: 0.85rem
+}
+
+
+
+/* Popular Courses */
+.courses {
+    margin-top: 10rem
+}
+
+.courses__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.course {
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    /* border-radius: 2rem; */ /* Added this */
+}
+
+.course:hover {
+    background: transparent;
+    border-color: #FBF5E6; /* Previously var(--color-primary) - White */
+}
+
+.course__info {
+    padding: 2rem;
+
+}
+
+.course__info p {
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+/* FAQs */
+.faqs {
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5)
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2rem;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq .open p {
+    display: block;
 }
