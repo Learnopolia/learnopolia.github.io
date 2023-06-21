@@ -139,6 +139,11 @@ nav button {
     gap: 4rem;
 }
 
+.my_menu_id {
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
 .nav__menu a {
     font-size: 0.9rem;
     transition: var(--transition);
@@ -254,7 +259,6 @@ header {
 .category p {
     font-size: 0.85rem
 }
-
 
 
 /* Popular Courses */
