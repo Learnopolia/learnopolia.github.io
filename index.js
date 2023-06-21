@@ -12,7 +12,9 @@ faqs.forEach(faq => {
     // change icon
     const icon = faq.querySelector('.faq__icon i');
     if (icon.className === 'uil uil-plus') {
-      icon.className = 'uil uil-minus'
+      icon.className = 'uil uil-minus';
+    } else {
+      icon.className = 'uil uil-plus';
     }
   });
 });
