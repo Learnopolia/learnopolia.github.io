@@ -137,9 +137,6 @@ nav button {
     display: flex;
     align-items: center;
     gap: 4rem;
-}
-
-.my_menu_id {
     justify-content: space-evenly;
     font-size: larger;
 }
