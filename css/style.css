@@ -325,9 +325,12 @@ header {
 
 .faq p {
     margin-top: 0.8rem;
-    display: none;
-}
-
-.faq .open p {
     display: block;
 }
+
+.faq.open p {
+    display: block;
+}
+
+/* User Stories */
+
