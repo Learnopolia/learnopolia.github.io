@@ -241,7 +241,7 @@ header {
 }
 
 .category__icon {
-    background: var(--color--primary);
+    background: var(--color-primary);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
@@ -333,4 +333,51 @@ header {
 }
 
 /* User Stories */
+.user__container {
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
 
+.user {
+    padding-top: 2rem;
+
+}
+
+.avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+}
+
+.user__info {
+    text-align: center;
+}
+
+.user__body {
+    background: var(--color-primary);
+    padding: 2rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.user__body::before {
+    content: "";
+    display: block;
+    background: linear-gradient(
+        135deg,
+        transparent,
+        var(--color-primary),
+        var(--color-primary),
+        var(--color-primary)
+        );
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 50%;
+    top: -1.5rem;
+    transform: rotate(45deg);
+}
