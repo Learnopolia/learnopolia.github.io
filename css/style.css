@@ -125,7 +125,7 @@ nav {
 .nav__container {
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -137,8 +137,6 @@ nav button {
     display: flex;
     align-items: center;
     gap: 4rem;
-    justify-content: space-evenly;
-    font-size: larger;
 }
 
 .nav__menu a {
