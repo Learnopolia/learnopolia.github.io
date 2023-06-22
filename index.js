@@ -8,8 +8,7 @@ const faqs = document.querySelectorAll('.faq');
 faqs.forEach(faq => {
   faq.addEventListener('click', () => {
     faq.classList.toggle('open');
-
-    // change icon
+    // change faq icon
     const icon = faq.querySelector('.faq__icon i');
     if (icon.className === 'uil uil-plus') {
       icon.className = 'uil uil-minus';
