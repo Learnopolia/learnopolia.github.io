@@ -10,7 +10,7 @@
 
 :root {
     /* Declare variables for easier access */
-    --color-primary: #6c63ff;    /* Former value was #6c63ff */
+    --color-primary: #8b0000fd;    /* Constant! Do not change!!!  Former value was #6c63ff */
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
     --color-danger: #f75842;
@@ -19,9 +19,9 @@
     --color-black: #000;
 
     /* Background colors */
-    --color-bg: #1f2641;
-    --color-bg1: #2e3267;
-    --color-bg2: #424890;
+    --color-bg: #000000;  /* Constant!!! Do Not Change!!! */
+    --color-bg1: #1F130D; /* Constant! Do not change!!! Former color was #E682 */
+    --color-bg2: #5B0D15; /* Constant! Do not change!!! Former color was #8B0000 #5B0D15 */
 
     /* Width Specification */
     --container-width-lg: 80%; /* Large devices */
