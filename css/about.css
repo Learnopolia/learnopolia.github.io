@@ -138,7 +138,7 @@ body {
 
     .team__container {
         grid-template-columns: repeat(3, 1fr);
-        gap: 1.5re;
+        gap: 1.5rem;
     }
 
     .team__member {
