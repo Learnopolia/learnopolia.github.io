@@ -1,7 +1,9 @@
 /* Debugging with ChatGPT */
+/*
 body {
     overflow-x: hidden;
 }
+*/
 
 /* @@@@@@@  Achievements Section @@@@@@@ */
 .about__achievements {
@@ -117,7 +119,7 @@ body {
 }
 
 .team__member-socials a {
-    padding: 0rem;
+    padding: 1rem;
 }
 
 /* @@@@@  MEDIA QUERIES (Tablets) @@@@@ */
