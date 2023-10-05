@@ -1,0 +1,2 @@
+- Add GitHub Icon
+- Fix interactivity on "About Us" page, and handle media queries too.
